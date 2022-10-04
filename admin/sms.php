@@ -16,52 +16,33 @@ if (strlen($_SESSION['adminid']==0)) {
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Admin Dashboard | SuperNet </title>
+        <title>Admin Dashboard</title>
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
         <link href="../css/styles.css" rel="stylesheet" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
     </head>
     <body class="sb-nav-fixed">
-        <?php
-                        if(isset($_POST['submit']))
+      <?php
+        require_once('AfricasTalkingGateway.php');
+
+        if(isset($_POST['submit'])){
+            $tid="Dear  you have successfully registered to KenyanRides.Thankyou. ";
+            $itd="0726312315";
+{
+        $phone=$_POST['phone'];
+        $message=$_POST['message'];
+        $fname=$_POST['fname'];
+        $message=$_POST['messo'];
+        $mobile=$_POST['pnumber'];
 
     
-   
-
-
-{
-$tid="Dear  you have successfully registered to KenyanRides.Thankyou. ";
-$itd="0726312315";
-{
-@$phone=$_POST['phone'];
-@$message=$_POST['message'];
- $fname=$_POST['fname'];
-    $message=$_POST['messo'];
-    $mobile=$_POST['pnumber'];
-
-
-
- // Be sure to include the file you've just downloaded
-    require_once('AfricasTalkingGateway.php');
-    // Specify your login credentials
-    $username   = "progressive";
-    $apikey     = "0505b3031a5d6c4e52c5b291d93b725579a4ce18d4ead37a5401408f14e65629";
-    // NOTE: If connecting to the sandbox, please use your sandbox login credentials
-    // Specify the numbers that you want to send to in a comma-separated list
-    // Please ensure you include the country code (+254 for Kenya in this case)
-     $from="pro-utility";
+    
+     
     $recipients = $mobile;
-    // And of course we want our recipients to know what we really do
     $message    = $message;
-    // Create a new instance of our awesome gateway class
+    
     $gateway    = new AfricasTalkingGateway($username, $apikey);
-    // NOTE: If connecting to the sandbox, please add the sandbox flag to the constructor:
-    /*************************************************************************************
-                 ****SANDBOX****
-    $gateway    = new AfricasTalkingGateway($username, $apiKey, "sandbox");
-    **************************************************************************************/
-    // Any gateway error will be captured by our custom Exception class below, 
-    // so wrap the call in a try-catch block
+    
     try 
     { 
       // Thats it, hit send and we'll take care of the rest. 
@@ -104,7 +85,7 @@ if($msg)
 
                                                 
 <div class="col-md-6">
-<div class="form-floating">
+<div class="form-floating col-md-6">
 <input class="form-control" id="messo" name="messo" type="text" placeholder="Enter message" required />
  <label for="inputLastName">Message</label>
 </div>
@@ -138,7 +119,7 @@ if($msg)
                                             
 
 <div class="mt-4 mb-0">
-<div class="d-grid"><button type="submit" class="btn btn-primary btn-block" name="submit">Create Account</button></div>
+<div class="d-grid"><button type="submit" class="btn btn-primary btn-block" name="submit">Send SMS</button></div>
 </div>
                                         </form>
                                         </div>

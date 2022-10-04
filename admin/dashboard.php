@@ -14,7 +14,7 @@ if (strlen($_SESSION['adminid']==0)) {
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Admin Dashboard | Registration and Login System </title>
+        <title>Admin Dashboard </title>
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
         <link href="../css/styles.css" rel="stylesheet" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
@@ -31,10 +31,10 @@ if (strlen($_SESSION['adminid']==0)) {
                             <li class="breadcrumb-item active">Dashboard</li>
                         </ol>
                         <div class="row">
-<?php
-$query=mysqli_query($con,"select id from users");
-$totalusers=mysqli_num_rows($query);
-?>
+                                            <?php
+                                            $query=mysqli_query($con,"select id from users");
+                                            $totalusers=mysqli_num_rows($query);
+                                            ?>
 
                             <div class="col-xl-3 col-md-6">
                                 <div class="card bg-primary text-white mb-4">

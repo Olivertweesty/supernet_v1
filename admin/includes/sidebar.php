@@ -8,9 +8,9 @@
                                 Dashboard
                             </a>
                             
-                 <a class="nav-link" href="add-users.php">
+                            <a class="nav-link" href="add-users.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-user"></i></div>
-                                Add Users
+                                Add Client
                             </a>
                             <a class="nav-link" href="manage-users.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-users"></i></div>
@@ -26,10 +26,10 @@
                             </a>
                             <a class="nav-link" href="invoice_list.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-address-book"></i></div>
-                                 Invoice
+                                 Payments
                             </a>
 
- <a class="nav-link" href="bwdates-report-ds.php">
+                            <a class="nav-link" href="bwdates-report-ds.php">
                                 <div class="sb-nav-link-icon"><i class="fa fa-calendar"></i></div>
                                 B/w Dates Report
                             </a>
