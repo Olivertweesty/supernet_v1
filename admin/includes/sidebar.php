@@ -26,7 +26,12 @@
                             </a>
                             <a class="nav-link" href="invoice_list.php">
                                 <div class="sb-nav-link-icon"><i class="fas fa-address-book"></i></div>
-                                 Payments
+                                 Invoice
+                            </a>
+
+                            <a class="nav-link" href="payments.php">
+                                <div class="sb-nav-link-icon"><i class="fas fa-address-book"></i></div>
+                                 M-PESA Records
                             </a>
 
                             <a class="nav-link" href="bwdates-report-ds.php">

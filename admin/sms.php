@@ -67,11 +67,14 @@ if($msg)
 }
   } 
   }
-                        ?>
-   <?php include_once('includes/navbar.php');?>
-        <div id="layoutSidenav">
-          <?php include_once('includes/sidebar.php');?>
-            <div id="layoutSidenav_content">
+?>
+
+<?php include_once('includes/navbar.php');?>
+
+
+<div id="layoutSidenav">
+  <?php include_once('includes/sidebar.php');?>
+    <div id="layoutSidenav_content">
                 <main>
                     <div class="container-fluid px-4">
                         <h1 class="mt-4">Send SMS</h1>
@@ -79,18 +82,16 @@ if($msg)
                         </ol>
                         <div class="row">
                         <div class="container" style="width:850px;">
-<form method="post" name="signup" onsubmit="return checkpass();">
+<form method="post" onsubmit="return checkpass();">
 
-<div class="row mb-3">
-
-                                                
-<div class="col-md-6">
-<div class="form-floating col-md-6">
-<input class="form-control" id="messo" name="messo" type="text" placeholder="Enter message" required />
- <label for="inputLastName">Message</label>
-</div>
-</div>
-</div>
+  <div class="row mb-3">                                               
+          <div class="col-md-12">
+                <div class="form-floating col-md-12">
+                            <textarea  class="form-control" id="messo" name="messo" style="height:170px;" type="text" placeholder="Write message" maxlength="160" required rows="3"></textarea>
+                            <label for="inputLastName">Message</label>
+                </div>
+          </div>
+  </div>
 
  
 
@@ -104,12 +105,12 @@ if($msg)
 
 <select class="form-control" name="pnumber">
 <option value="">Select number</option>
-<?php $ret=mysqli_query($con,"select * from users");
+                              <?php $ret=mysqli_query($con,"select * from users");
                               $cnt=1;
                               while($row=mysqli_fetch_array($ret))
                               {?> 
-<option required value="<?php echo $row['contactno'];?>"><?php echo $row['contactno'] ;echo $row['fname'] ; echo $row['posting_date'] ; ?></option>
-<?php } ?>
+                                  <option required value="<?php echo $row['contactno'];?>"> <?php echo $row['contactno'].' - '.$row['fname'];?></option>
+                              <?php } ?>
                  
                 </select>
               </div>

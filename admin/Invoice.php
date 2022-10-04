@@ -1,25 +1,23 @@
 <?php
-class Invoice{
-	private $host  = 'localhost';
-    private $user  = 'progressive_supernet';
-    private $password   = "@supernet2022!";
-    private $database  = "progressive_supernet";   
-	private $invoiceUserTable = 'invoice_user';	
-    private $invoiceOrderTable = 'invoice_order';
-	private $invoiceOrderItemTable = 'invoice_order_item';
-	private $dbConnect = false;
-    public function __construct(){
-        if(!$this->dbConnect){ 
-            $conn = new mysqli($this->host, $this->user, $this->password, $this->database);
-            if($conn->connect_error){
-                die("Error failed to connect to MySQL: " . $conn->connect_error);
-            }else{
-                $this->dbConnect = $conn;
-            }
-        }
-    }
-	private function getData($sqlQuery) {
-		$result = mysqli_query($this->dbConnect, $sqlQuery);
+include('../includes/config.php');
+//class Invoice{
+	
+    // public function __construct(){
+    //     if(!$dbConnect){ 
+    //         $conn = new mysqli($host, $user, $this->password, $this->database);
+    //         if($conn->connect_error){
+    //             die("Error failed to connect to MySQL: " . $conn->connect_error);
+    //         }else{
+    //             $this->dbConnect = $conn;
+    //         }
+    //     }
+    // }
+
+
+
+	function getData($sqlQuery) {
+		
+		$result = mysqli_query($GLOBALS['con'], $sqlQuery);
 		if(!$result){
 			die('Error in query: '. mysqli_error());
 		}
@@ -29,7 +27,7 @@ class Invoice{
 		}
 		return $data;
 	}
-	private function getNumRows($sqlQuery) {
+	function getNumRows($sqlQuery) {
 		$result = mysqli_query($this->dbConnect, $sqlQuery);
 		if(!$result){
 			die('Error in query: '. mysqli_error());
@@ -37,7 +35,7 @@ class Invoice{
 		$numRows = mysqli_num_rows($result);
 		return $numRows;
 	}
-	public function loginUsers($email, $password){
+	function loginUsers($email, $password){
 		$sqlQuery = "
 			SELECT id, email, first_name, last_name, address, mobile 
 			FROM ".$this->invoiceUserTable." 
@@ -49,7 +47,7 @@ class Invoice{
 // 			header("Location:index.php");
 // 		}
 // 	}		
-	public function saveInvoice($POST) {		
+	function saveInvoice($POST) {		
 		$sqlInsert = "INSERT INTO ".$this->invoiceOrderTable."(user_id, order_receiver_name, order_receiver_address, order_total_before_tax, order_total_tax, order_tax_per, order_total_after_tax, order_amount_paid, order_total_amount_due, note) VALUES ('".$POST['userId']."', '".$POST['companyName']."', '".$POST['address']."', '".$POST['subTotal']."', '".$POST['taxAmount']."', '".$POST['taxRate']."', '".$POST['totalAftertax']."', '".$POST['amountPaid']."', '".$POST['amountDue']."', '".$POST['notes']."')";		
 		mysqli_query($this->dbConnect, $sqlInsert);
 		$lastInsertId = mysqli_insert_id($this->dbConnect);
@@ -58,7 +56,7 @@ class Invoice{
 			mysqli_query($this->dbConnect, $sqlInsertItem);
 		}       	
 	}	
-	public function updateInvoice($POST) {
+	function updateInvoice($POST) {
 		if($POST['invoiceId']) {	
 			$sqlInsert = "UPDATE ".$this->invoiceOrderTable." 
 				SET order_receiver_name = '".$POST['companyName']."', order_receiver_address= '".$POST['address']."', order_total_before_tax = '".$POST['subTotal']."', order_total_tax = '".$POST['taxAmount']."', order_tax_per = '".$POST['taxRate']."', order_total_after_tax = '".$POST['totalAftertax']."', order_amount_paid = '".$POST['amountPaid']."', order_total_amount_due = '".$POST['amountDue']."', note = '".$POST['notes']."' 
@@ -72,34 +70,34 @@ class Invoice{
 			mysqli_query($this->dbConnect, $sqlInsertItem);			
 		}       	
 	}	
-	public function getInvoiceList(){
-		$sqlQuery = "SELECT * FROM ".$this->invoiceOrderTable." 
-			WHERE user_id = '".$_SESSION['userid']."'";
-		return  $this->getData($sqlQuery);
+	function getInvoiceList(){
+		$sqlQuery = "SELECT * FROM ".$GLOBALS['invoiceOrderTable']." 
+			WHERE user_id = '".$_SESSION['adminid']."'";
+		return  getData($sqlQuery);
 	}	
-	public function getInvoice($invoiceId){
+	function getInvoice($invoiceId){
 		$sqlQuery = "SELECT * FROM ".$this->invoiceOrderTable." 
 			WHERE user_id = '".$_SESSION['userid']."' AND order_id = '$invoiceId'";
 		$result = mysqli_query($this->dbConnect, $sqlQuery);	
 		$row = mysqli_fetch_array($result, MYSQLI_ASSOC);
 		return $row;
 	}	
-	public function getInvoiceItems($invoiceId){
+	function getInvoiceItems($invoiceId){
 		$sqlQuery = "SELECT * FROM ".$this->invoiceOrderItemTable." 
 			WHERE order_id = '$invoiceId'";
 		return  $this->getData($sqlQuery);	
 	}
-	public function deleteInvoiceItems($invoiceId){
+	function deleteInvoiceItems($invoiceId){
 		$sqlQuery = "DELETE FROM ".$this->invoiceOrderItemTable." 
 			WHERE order_id = '".$invoiceId."'";
 		mysqli_query($this->dbConnect, $sqlQuery);				
 	}
-	public function deleteInvoice($invoiceId){
+	function deleteInvoice($invoiceId){
 		$sqlQuery = "DELETE FROM ".$this->invoiceOrderTable." 
 			WHERE order_id = '".$invoiceId."'";
 		mysqli_query($this->dbConnect, $sqlQuery);	
 		$this->deleteInvoiceItems($invoiceId);	
 		return 1;
 	}
-}
+
 ?>

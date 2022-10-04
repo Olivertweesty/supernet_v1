@@ -8,9 +8,9 @@
 	</ul>
 </li>
 <?php 
-if($_SESSION['userid']) { ?>
+if($_SESSION['adminid']) { ?>
 	<li class="dropdown">
-		<button class="btn2 btn-secondary dropdown-toggle border-0" type="button" data-toggle="dropdown">Logged in as: <?php echo $_SESSION['user']; ?>
+		<button class="btn2 btn-secondary dropdown-toggle border-0" type="button" data-toggle="dropdown">Logged in as: <?php echo $_SESSION['adminid']; ?>
 		<span class="caret"></span></button>
 		<ul class="dropdown-menu">
 			<li><a class="dropdown-item" href="#">Account</a></li>
