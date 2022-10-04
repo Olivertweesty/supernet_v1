@@ -1,0 +1,408 @@
+[03-Jun-2022 19:20:28 UTC] PHP Notice:  Undefined index: adminid in /home/progressive/supernet.progressive.co.ke/admin/manage-users.php on line 3
+[05-Jun-2022 09:30:24 UTC] PHP Notice:  Undefined index: adminid in /home/progressive/supernet.progressive.co.ke/admin/manage-users.php on line 3
+[09-Jun-2022 10:00:52 UTC] PHP Notice:  Undefined index: adminid in /home/progressive/supernet.progressive.co.ke/admin/bwdates-report-ds.php on line 3
+[09-Jun-2022 12:11:36 UTC] PHP Notice:  Undefined index: adminid in /home/progressive/supernet.progressive.co.ke/admin/manage-users.php on line 3
+[18-Jun-2022 08:56:06 UTC] PHP Notice:  Undefined index: adminid in /home/progressive/supernet.progressive.co.ke/admin/dashboard.php on line 3
+[18-Jun-2022 19:13:36 UTC] PHP Notice:  Undefined index: adminid in /home/progressive/supernet.progressive.co.ke/admin/dashboard.php on line 3
+[18-Jun-2022 19:14:10 UTC] PHP Notice:  Undefined index: adminid in /home/progressive/supernet.progressive.co.ke/admin/dashboard.php on line 3
+[18-Jun-2022 19:14:53 UTC] PHP Notice:  Undefined index: adminid in /home/progressive/supernet.progressive.co.ke/admin/dashboard.php on line 3
+[20-Jun-2022 06:16:34 UTC] PHP Notice:  Undefined index: type in /home/progressive/supernet.progressive.co.ke/admin/smshistory.php on line 82
+[20-Jun-2022 06:16:34 UTC] PHP Notice:  Undefined variable: displayVar in /home/progressive/supernet.progressive.co.ke/admin/smshistory.php on line 86
+[20-Jun-2022 06:16:34 UTC] PHP Notice:  Undefined index: due_date in /home/progressive/supernet.progressive.co.ke/admin/smshistory.php on line 94
+[20-Jun-2022 06:16:34 UTC] PHP Notice:  Undefined index: type in /home/progressive/supernet.progressive.co.ke/admin/smshistory.php on line 82
+[20-Jun-2022 06:16:34 UTC] PHP Notice:  Undefined variable: displayVar in /home/progressive/supernet.progressive.co.ke/admin/smshistory.php on line 86
+[20-Jun-2022 06:16:34 UTC] PHP Notice:  Undefined index: due_date in /home/progressive/supernet.progressive.co.ke/admin/smshistory.php on line 94
+[20-Jun-2022 06:16:34 UTC] PHP Notice:  Undefined index: type in /home/progressive/supernet.progressive.co.ke/admin/smshistory.php on line 82
+[20-Jun-2022 06:16:34 UTC] PHP Notice:  Undefined variable: displayVar in /home/progressive/supernet.progressive.co.ke/admin/smshistory.php on line 86
+[20-Jun-2022 06:16:34 UTC] PHP Notice:  Undefined index: due_date in /home/progressive/supernet.progressive.co.ke/admin/smshistory.php on line 94
+[20-Jun-2022 06:16:34 UTC] PHP Notice:  Undefined index: type in /home/progressive/supernet.progressive.co.ke/admin/smshistory.php on line 82
+[20-Jun-2022 06:16:34 UTC] PHP Notice:  Undefined variable: displayVar in /home/progressive/supernet.progressive.co.ke/admin/smshistory.php on line 86
+[20-Jun-2022 06:16:34 UTC] PHP Notice:  Undefined index: due_date in /home/progressive/supernet.progressive.co.ke/admin/smshistory.php on line 94
+[20-Jun-2022 06:16:34 UTC] PHP Notice:  Undefined index: type in /home/progressive/supernet.progressive.co.ke/admin/smshistory.php on line 82
+[20-Jun-2022 06:16:34 UTC] PHP Notice:  Undefined variable: displayVar in /home/progressive/supernet.progressive.co.ke/admin/smshistory.php on line 86
+[20-Jun-2022 06:16:34 UTC] PHP Notice:  Undefined index: due_date in /home/progressive/supernet.progressive.co.ke/admin/smshistory.php on line 94
+[20-Jun-2022 10:39:43 UTC] PHP Notice:  Undefined index: adminid in /home/progressive/supernet.progressive.co.ke/admin/manage-users.php on line 3
+[23-Jun-2022 09:34:11 UTC] PHP Notice:  Undefined index: adminid in /home/progressive/supernet.progressive.co.ke/admin/dashboard.php on line 3
+[23-Jun-2022 09:34:30 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 09:34:30 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 09:34:30 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 09:34:30 UTC] PHP Warning:  include(Invoice.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 4
+[23-Jun-2022 09:34:30 UTC] PHP Warning:  include(Invoice.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 4
+[23-Jun-2022 09:34:30 UTC] PHP Warning:  include(): Failed opening 'Invoice.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 4
+[23-Jun-2022 09:34:30 UTC] PHP Fatal error:  Uncaught Error: Class 'Invoice' not found in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 5
+[23-Jun-2022 09:43:50 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 09:43:50 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 09:43:50 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 09:43:50 UTC] PHP Warning:  include(Invoice.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 4
+[23-Jun-2022 09:43:50 UTC] PHP Warning:  include(Invoice.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 4
+[23-Jun-2022 09:43:50 UTC] PHP Warning:  include(): Failed opening 'Invoice.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 4
+[23-Jun-2022 09:43:50 UTC] PHP Fatal error:  Uncaught Error: Class 'Invoice' not found in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 5
+[23-Jun-2022 09:44:10 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 09:44:10 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 09:44:10 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 09:44:10 UTC] PHP Warning:  include(Invoice.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 4
+[23-Jun-2022 09:44:10 UTC] PHP Warning:  include(Invoice.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 4
+[23-Jun-2022 09:44:10 UTC] PHP Warning:  include(): Failed opening 'Invoice.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 4
+[23-Jun-2022 09:44:10 UTC] PHP Fatal error:  Uncaught Error: Class 'Invoice' not found in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 5
+[23-Jun-2022 09:46:06 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 09:46:06 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 09:46:06 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 09:46:06 UTC] PHP Warning:  include(Invoice.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 4
+[23-Jun-2022 09:46:06 UTC] PHP Warning:  include(Invoice.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 4
+[23-Jun-2022 09:46:06 UTC] PHP Warning:  include(): Failed opening 'Invoice.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 4
+[23-Jun-2022 09:46:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Invoice' not found in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 5
+[23-Jun-2022 09:50:30 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 09:50:30 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 09:50:30 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 09:50:30 UTC] PHP Warning:  mysqli::__construct(): (HY000/1044): Access denied for user 'progressive_supernet'@'localhost' to database 'progressive_superne' in /home/progressive/supernet.progressive.co.ke/admin/Invoice.php on line 13
+[23-Jun-2022 09:51:40 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 09:51:40 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 09:51:40 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 09:51:40 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/Invoice.php on line 48
+[23-Jun-2022 09:51:40 UTC] PHP Warning:  include(container.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 11
+[23-Jun-2022 09:51:40 UTC] PHP Warning:  include(container.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 11
+[23-Jun-2022 09:51:40 UTC] PHP Warning:  include(): Failed opening 'container.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 11
+[23-Jun-2022 09:51:40 UTC] PHP Warning:  include(menu.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 14
+[23-Jun-2022 09:51:40 UTC] PHP Warning:  include(menu.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 14
+[23-Jun-2022 09:51:40 UTC] PHP Warning:  include(): Failed opening 'menu.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 14
+[23-Jun-2022 09:51:40 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/Invoice.php on line 77
+[23-Jun-2022 09:51:40 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 46
+[23-Jun-2022 09:51:40 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 46
+[23-Jun-2022 09:51:40 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 46
+[23-Jun-2022 09:51:59 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 09:51:59 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 09:51:59 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 09:51:59 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/Invoice.php on line 48
+[23-Jun-2022 09:51:59 UTC] PHP Warning:  include(container.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 11
+[23-Jun-2022 09:51:59 UTC] PHP Warning:  include(container.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 11
+[23-Jun-2022 09:51:59 UTC] PHP Warning:  include(): Failed opening 'container.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 11
+[23-Jun-2022 09:51:59 UTC] PHP Warning:  include(menu.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 14
+[23-Jun-2022 09:51:59 UTC] PHP Warning:  include(menu.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 14
+[23-Jun-2022 09:51:59 UTC] PHP Warning:  include(): Failed opening 'menu.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 14
+[23-Jun-2022 09:51:59 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/Invoice.php on line 77
+[23-Jun-2022 09:51:59 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 46
+[23-Jun-2022 09:51:59 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 46
+[23-Jun-2022 09:51:59 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 46
+[23-Jun-2022 09:54:13 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 09:54:13 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 09:54:13 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 09:54:13 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Invoice::checkLoggedIn() in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 6
+[23-Jun-2022 09:54:24 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 09:54:24 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 09:54:24 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 09:54:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Invoice::checkLoggedIn() in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 6
+[23-Jun-2022 09:56:00 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 09:56:00 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 09:56:00 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 09:56:00 UTC] PHP Warning:  include(container.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 11
+[23-Jun-2022 09:56:00 UTC] PHP Warning:  include(container.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 11
+[23-Jun-2022 09:56:00 UTC] PHP Warning:  include(): Failed opening 'container.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 11
+[23-Jun-2022 09:56:00 UTC] PHP Warning:  include(menu.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 14
+[23-Jun-2022 09:56:00 UTC] PHP Warning:  include(menu.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 14
+[23-Jun-2022 09:56:00 UTC] PHP Warning:  include(): Failed opening 'menu.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 14
+[23-Jun-2022 09:56:00 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/Invoice.php on line 77
+[23-Jun-2022 09:56:00 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 46
+[23-Jun-2022 09:56:00 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 46
+[23-Jun-2022 09:56:00 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 46
+[23-Jun-2022 10:01:23 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 10:01:23 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 10:01:23 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 10:01:23 UTC] PHP Warning:  include(container.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 11
+[23-Jun-2022 10:01:23 UTC] PHP Warning:  include(container.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 11
+[23-Jun-2022 10:01:23 UTC] PHP Warning:  include(): Failed opening 'container.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 11
+[23-Jun-2022 10:01:23 UTC] PHP Warning:  include(menu.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 14
+[23-Jun-2022 10:01:23 UTC] PHP Warning:  include(menu.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 14
+[23-Jun-2022 10:01:23 UTC] PHP Warning:  include(): Failed opening 'menu.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 14
+[23-Jun-2022 10:01:23 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/Invoice.php on line 77
+[23-Jun-2022 10:01:23 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 46
+[23-Jun-2022 10:01:23 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 46
+[23-Jun-2022 10:01:23 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 46
+[23-Jun-2022 10:06:50 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 10:06:50 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 10:06:50 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 10:06:50 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/menu.php on line 11
+[23-Jun-2022 10:06:50 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/Invoice.php on line 77
+[23-Jun-2022 10:06:50 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 46
+[23-Jun-2022 10:06:50 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 46
+[23-Jun-2022 10:06:50 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 46
+[23-Jun-2022 10:06:57 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 3
+[23-Jun-2022 10:06:57 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 3
+[23-Jun-2022 10:06:57 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 3
+[23-Jun-2022 10:06:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Invoice::checkLoggedIn() in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 6
+[23-Jun-2022 10:07:53 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 3
+[23-Jun-2022 10:07:53 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 3
+[23-Jun-2022 10:07:53 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 3
+[23-Jun-2022 10:07:53 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/menu.php on line 11
+[23-Jun-2022 10:07:53 UTC] PHP Notice:  Undefined index: user in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 31
+[23-Jun-2022 10:07:53 UTC] PHP Notice:  Undefined index: address in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 32
+[23-Jun-2022 10:07:53 UTC] PHP Notice:  Undefined index: mobile in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 33
+[23-Jun-2022 10:07:53 UTC] PHP Notice:  Undefined index: email in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 34
+[23-Jun-2022 10:07:53 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 156
+[23-Jun-2022 10:07:53 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 168
+[23-Jun-2022 10:07:53 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 168
+[23-Jun-2022 10:07:53 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 168
+[23-Jun-2022 10:09:43 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 3
+[23-Jun-2022 10:09:43 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 3
+[23-Jun-2022 10:09:43 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 3
+[23-Jun-2022 10:09:43 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/menu.php on line 11
+[23-Jun-2022 10:09:43 UTC] PHP Notice:  Undefined index: user in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 40
+[23-Jun-2022 10:09:43 UTC] PHP Notice:  Undefined index: address in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 41
+[23-Jun-2022 10:09:43 UTC] PHP Notice:  Undefined index: mobile in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 42
+[23-Jun-2022 10:09:43 UTC] PHP Notice:  Undefined index: email in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 43
+[23-Jun-2022 10:09:43 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 165
+[23-Jun-2022 10:09:43 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 177
+[23-Jun-2022 10:09:43 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 177
+[23-Jun-2022 10:09:43 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 177
+[23-Jun-2022 10:09:55 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 3
+[23-Jun-2022 10:09:55 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 3
+[23-Jun-2022 10:09:55 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 3
+[23-Jun-2022 10:09:55 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/menu.php on line 11
+[23-Jun-2022 10:09:55 UTC] PHP Notice:  Undefined index: user in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 40
+[23-Jun-2022 10:09:55 UTC] PHP Notice:  Undefined index: address in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 41
+[23-Jun-2022 10:09:55 UTC] PHP Notice:  Undefined index: mobile in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 42
+[23-Jun-2022 10:09:55 UTC] PHP Notice:  Undefined index: email in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 43
+[23-Jun-2022 10:09:55 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 165
+[23-Jun-2022 10:09:55 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 177
+[23-Jun-2022 10:09:55 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 177
+[23-Jun-2022 10:09:55 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 177
+[23-Jun-2022 10:11:37 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 3
+[23-Jun-2022 10:11:37 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 3
+[23-Jun-2022 10:11:37 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 3
+[23-Jun-2022 10:11:37 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/menu.php on line 11
+[23-Jun-2022 10:11:37 UTC] PHP Notice:  Undefined index: user in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 41
+[23-Jun-2022 10:11:37 UTC] PHP Notice:  Undefined index: address in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 42
+[23-Jun-2022 10:11:37 UTC] PHP Notice:  Undefined index: mobile in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 43
+[23-Jun-2022 10:11:37 UTC] PHP Notice:  Undefined index: email in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 44
+[23-Jun-2022 10:11:37 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 166
+[23-Jun-2022 10:11:37 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 178
+[23-Jun-2022 10:11:37 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 178
+[23-Jun-2022 10:11:37 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 178
+[23-Jun-2022 10:11:44 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 10:11:44 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 10:11:44 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 10:11:44 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/menu.php on line 11
+[23-Jun-2022 10:11:44 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/Invoice.php on line 77
+[23-Jun-2022 10:11:44 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 56
+[23-Jun-2022 10:11:44 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 56
+[23-Jun-2022 10:11:44 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 56
+[23-Jun-2022 10:11:55 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 10:11:55 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 10:11:55 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 10:11:55 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/menu.php on line 11
+[23-Jun-2022 10:11:55 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/Invoice.php on line 77
+[23-Jun-2022 10:11:55 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 56
+[23-Jun-2022 10:11:55 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 56
+[23-Jun-2022 10:11:55 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 56
+[23-Jun-2022 10:12:24 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 10:12:24 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 10:12:24 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 10:12:24 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/menu.php on line 11
+[23-Jun-2022 10:12:24 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/Invoice.php on line 77
+[23-Jun-2022 10:12:24 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 57
+[23-Jun-2022 10:12:24 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 57
+[23-Jun-2022 10:12:24 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 57
+[23-Jun-2022 10:13:09 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 10:13:09 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 10:13:09 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 3
+[23-Jun-2022 10:13:09 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/menu.php on line 11
+[23-Jun-2022 10:13:09 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/Invoice.php on line 77
+[23-Jun-2022 10:13:09 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 57
+[23-Jun-2022 10:13:09 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 57
+[23-Jun-2022 10:13:09 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 57
+[23-Jun-2022 10:15:56 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 5
+[23-Jun-2022 10:15:56 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 5
+[23-Jun-2022 10:15:56 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 5
+[23-Jun-2022 10:15:56 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/menu.php on line 11
+[23-Jun-2022 10:15:56 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/Invoice.php on line 77
+[23-Jun-2022 10:15:56 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 60
+[23-Jun-2022 10:15:56 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 60
+[23-Jun-2022 10:15:56 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 60
+[23-Jun-2022 10:16:36 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 5
+[23-Jun-2022 10:16:36 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 5
+[23-Jun-2022 10:16:36 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 5
+[23-Jun-2022 10:16:36 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/menu.php on line 11
+[23-Jun-2022 10:16:36 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/Invoice.php on line 77
+[23-Jun-2022 10:16:36 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 61
+[23-Jun-2022 10:16:36 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 61
+[23-Jun-2022 10:16:36 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 61
+[23-Jun-2022 10:18:11 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 5
+[23-Jun-2022 10:18:11 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 5
+[23-Jun-2022 10:18:11 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 5
+[23-Jun-2022 10:18:11 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/menu.php on line 11
+[23-Jun-2022 10:18:11 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/Invoice.php on line 77
+[23-Jun-2022 10:18:11 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 63
+[23-Jun-2022 10:18:11 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 63
+[23-Jun-2022 10:18:11 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 63
+[23-Jun-2022 10:18:57 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 5
+[23-Jun-2022 10:18:57 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 5
+[23-Jun-2022 10:18:57 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 5
+[23-Jun-2022 10:18:57 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/menu.php on line 11
+[23-Jun-2022 10:18:57 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/Invoice.php on line 77
+[23-Jun-2022 10:18:57 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 63
+[23-Jun-2022 10:18:57 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 63
+[23-Jun-2022 10:18:57 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 63
+[23-Jun-2022 10:20:11 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 5
+[23-Jun-2022 10:20:11 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 5
+[23-Jun-2022 10:20:11 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 5
+[23-Jun-2022 10:20:11 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/menu.php on line 11
+[23-Jun-2022 10:20:11 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/Invoice.php on line 77
+[23-Jun-2022 10:20:11 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 65
+[23-Jun-2022 10:20:11 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 65
+[23-Jun-2022 10:20:11 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 65
+[23-Jun-2022 10:21:13 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 5
+[23-Jun-2022 10:21:13 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 5
+[23-Jun-2022 10:21:13 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 5
+[23-Jun-2022 10:21:13 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/menu.php on line 11
+[23-Jun-2022 10:21:13 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/Invoice.php on line 77
+[23-Jun-2022 10:21:13 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 63
+[23-Jun-2022 10:21:13 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 63
+[23-Jun-2022 10:21:13 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 63
+[23-Jun-2022 10:22:37 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 3
+[23-Jun-2022 10:22:37 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 3
+[23-Jun-2022 10:22:37 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 3
+[23-Jun-2022 10:22:37 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/menu.php on line 11
+[23-Jun-2022 10:22:37 UTC] PHP Notice:  Undefined index: user in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 41
+[23-Jun-2022 10:22:37 UTC] PHP Notice:  Undefined index: address in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 42
+[23-Jun-2022 10:22:37 UTC] PHP Notice:  Undefined index: mobile in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 43
+[23-Jun-2022 10:22:37 UTC] PHP Notice:  Undefined index: email in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 44
+[23-Jun-2022 10:22:37 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 166
+[23-Jun-2022 10:22:37 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 178
+[23-Jun-2022 10:22:37 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 178
+[23-Jun-2022 10:22:37 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 178
+[23-Jun-2022 10:23:38 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 3
+[23-Jun-2022 10:23:38 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 3
+[23-Jun-2022 10:23:38 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 3
+[23-Jun-2022 10:23:38 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/menu.php on line 11
+[23-Jun-2022 10:23:38 UTC] PHP Notice:  Undefined index: user in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 41
+[23-Jun-2022 10:23:38 UTC] PHP Notice:  Undefined index: address in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 42
+[23-Jun-2022 10:23:38 UTC] PHP Notice:  Undefined index: mobile in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 43
+[23-Jun-2022 10:23:38 UTC] PHP Notice:  Undefined index: email in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 44
+[23-Jun-2022 10:23:38 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 166
+[23-Jun-2022 10:23:38 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 178
+[23-Jun-2022 10:23:38 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 178
+[23-Jun-2022 10:23:38 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/create_invoice.php on line 178
+[23-Jun-2022 10:23:39 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 5
+[23-Jun-2022 10:23:39 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 5
+[23-Jun-2022 10:23:39 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 5
+[23-Jun-2022 10:23:39 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/menu.php on line 11
+[23-Jun-2022 10:23:39 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/Invoice.php on line 77
+[23-Jun-2022 10:23:39 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 65
+[23-Jun-2022 10:23:39 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 65
+[23-Jun-2022 10:23:39 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 65
+[23-Jun-2022 10:23:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method Invoice::checkLoggedIn() in /home/progressive/supernet.progressive.co.ke/admin/print_invoice.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/progressive/supernet.progressive.co.ke/admin/print_invoice.php on line 5
+[23-Jun-2022 10:24:49 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/Invoice.php on line 82
+[23-Jun-2022 10:24:49 UTC] PHP Warning:  require_once(dompdf/src/Autoloader.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/print_invoice.php on line 88
+[23-Jun-2022 10:24:49 UTC] PHP Fatal error:  require_once(): Failed opening required 'dompdf/src/Autoloader.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/print_invoice.php on line 88
+[23-Jun-2022 10:25:02 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 5
+[23-Jun-2022 10:25:02 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 5
+[23-Jun-2022 10:25:02 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 5
+[23-Jun-2022 10:25:02 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/menu.php on line 11
+[23-Jun-2022 10:25:02 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/Invoice.php on line 77
+[23-Jun-2022 10:25:02 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 65
+[23-Jun-2022 10:25:02 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 65
+[23-Jun-2022 10:25:02 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 65
+[23-Jun-2022 10:25:09 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/Invoice.php on line 82
+[23-Jun-2022 10:25:09 UTC] PHP Warning:  require_once(dompdf/src/Autoloader.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/print_invoice.php on line 88
+[23-Jun-2022 10:25:09 UTC] PHP Fatal error:  require_once(): Failed opening required 'dompdf/src/Autoloader.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/print_invoice.php on line 88
+[23-Jun-2022 10:26:25 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/Invoice.php on line 82
+[23-Jun-2022 10:26:25 UTC] PHP Warning:  require_once(dompdf/src/Autoloader.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/print_invoice.php on line 97
+[23-Jun-2022 10:26:25 UTC] PHP Fatal error:  require_once(): Failed opening required 'dompdf/src/Autoloader.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/print_invoice.php on line 97
+[23-Jun-2022 10:31:49 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 5
+[23-Jun-2022 10:31:49 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 5
+[23-Jun-2022 10:31:49 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 5
+[23-Jun-2022 10:31:49 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/menu.php on line 11
+[23-Jun-2022 10:31:49 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/Invoice.php on line 77
+[23-Jun-2022 10:31:49 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 65
+[23-Jun-2022 10:31:49 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 65
+[23-Jun-2022 10:31:49 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 65
+[23-Jun-2022 10:31:55 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/Invoice.php on line 82
+[23-Jun-2022 10:31:55 UTC] PHP Warning:  require_once(dompdf/src/Autoloader.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/print_invoice.php on line 97
+[23-Jun-2022 10:31:55 UTC] PHP Fatal error:  require_once(): Failed opening required 'dompdf/src/Autoloader.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/print_invoice.php on line 97
+[23-Jun-2022 10:33:00 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/Invoice.php on line 82
+[23-Jun-2022 10:33:00 UTC] PHP Warning:  require_once(dompdf/src/Autoloader.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/print_invoice.php on line 97
+[23-Jun-2022 10:33:00 UTC] PHP Fatal error:  require_once(): Failed opening required 'dompdf/src/Autoloader.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/print_invoice.php on line 97
+[23-Jun-2022 10:34:31 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/Invoice.php on line 82
+[23-Jun-2022 10:34:31 UTC] PHP Warning:  require_once(dompdf/src/Autoloader.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/print_invoice.php on line 97
+[23-Jun-2022 10:34:31 UTC] PHP Fatal error:  require_once(): Failed opening required 'dompdf/src/Autoloader.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/print_invoice.php on line 97
+[07-Jul-2022 07:57:57 UTC] PHP Notice:  Undefined index: adminid in /home/progressive/supernet.progressive.co.ke/admin/dashboard.php on line 3
+[07-Jul-2022 16:23:59 UTC] PHP Notice:  Undefined index: adminid in /home/progressive/supernet.progressive.co.ke/admin/manage-users.php on line 3
+[08-Jul-2022 15:56:38 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/Invoice.php on line 82
+[08-Jul-2022 15:56:38 UTC] PHP Warning:  require_once(dompdf/src/Autoloader.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/print_invoice.php on line 97
+[08-Jul-2022 15:56:38 UTC] PHP Fatal error:  require_once(): Failed opening required 'dompdf/src/Autoloader.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/print_invoice.php on line 97
+[09-Jul-2022 03:06:33 UTC] PHP Notice:  Undefined index: adminid in /home/progressive/supernet.progressive.co.ke/admin/dashboard.php on line 3
+[09-Jul-2022 03:06:52 UTC] PHP Notice:  Undefined index: adminid in /home/progressive/supernet.progressive.co.ke/admin/dashboard.php on line 3
+[09-Jul-2022 03:07:25 UTC] PHP Notice:  Undefined index: adminid in /home/progressive/supernet.progressive.co.ke/admin/dashboard.php on line 3
+[09-Jul-2022 03:09:10 UTC] PHP Notice:  Undefined index: adminid in /home/progressive/supernet.progressive.co.ke/admin/dashboard.php on line 3
+[09-Jul-2022 04:00:02 UTC] PHP Notice:  Undefined index: adminid in /home/progressive/supernet.progressive.co.ke/admin/dashboard.php on line 3
+[09-Jul-2022 19:43:01 UTC] PHP Notice:  Undefined index: adminid in /home/progressive/supernet.progressive.co.ke/admin/dashboard.php on line 3
+[11-Jul-2022 03:13:10 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/Invoice.php on line 82
+[11-Jul-2022 03:13:10 UTC] PHP Warning:  require_once(dompdf/src/Autoloader.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/print_invoice.php on line 97
+[11-Jul-2022 03:13:10 UTC] PHP Fatal error:  require_once(): Failed opening required 'dompdf/src/Autoloader.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/print_invoice.php on line 97
+[13-Jul-2022 07:06:44 UTC] PHP Notice:  Undefined index: adminid in /home/progressive/supernet.progressive.co.ke/admin/smshistory.php on line 3
+[13-Jul-2022 07:06:46 UTC] PHP Notice:  Undefined index: adminid in /home/progressive/supernet.progressive.co.ke/admin/smshistory.php on line 3
+[18-Jul-2022 16:28:31 UTC] PHP Notice:  Undefined index: adminid in /home/progressive/supernet.progressive.co.ke/admin/smshistory.php on line 3
+[22-Jul-2022 08:09:02 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/Invoice.php on line 82
+[22-Jul-2022 08:09:02 UTC] PHP Warning:  require_once(dompdf/src/Autoloader.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/print_invoice.php on line 97
+[22-Jul-2022 08:09:02 UTC] PHP Fatal error:  require_once(): Failed opening required 'dompdf/src/Autoloader.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/print_invoice.php on line 97
+[29-Jul-2022 08:44:22 UTC] PHP Notice:  Undefined index: adminid in /home/progressive/supernet.progressive.co.ke/admin/dashboard.php on line 3
+[08-Aug-2022 05:40:26 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 5
+[08-Aug-2022 05:40:26 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 5
+[08-Aug-2022 05:40:26 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 5
+[08-Aug-2022 05:40:26 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/menu.php on line 11
+[08-Aug-2022 05:40:26 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/Invoice.php on line 77
+[08-Aug-2022 05:40:26 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 65
+[08-Aug-2022 05:40:26 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 65
+[08-Aug-2022 05:40:26 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 65
+[08-Aug-2022 05:40:30 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 5
+[08-Aug-2022 05:40:30 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 5
+[08-Aug-2022 05:40:30 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 5
+[08-Aug-2022 05:40:30 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/menu.php on line 11
+[08-Aug-2022 05:40:30 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/Invoice.php on line 77
+[08-Aug-2022 05:40:30 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 65
+[08-Aug-2022 05:40:30 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 65
+[08-Aug-2022 05:40:30 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 65
+[08-Aug-2022 08:45:58 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 5
+[08-Aug-2022 08:45:58 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 5
+[08-Aug-2022 08:45:58 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 5
+[08-Aug-2022 08:45:58 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/menu.php on line 11
+[08-Aug-2022 08:45:58 UTC] PHP Notice:  Undefined index: userid in /home/progressive/supernet.progressive.co.ke/admin/Invoice.php on line 77
+[08-Aug-2022 08:45:58 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 65
+[08-Aug-2022 08:45:58 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 65
+[08-Aug-2022 08:45:58 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/opt/alt/php73/usr/share/pear') in /home/progressive/supernet.progressive.co.ke/admin/invoice_list.php on line 65
+[19-Aug-2022 16:45:56 UTC] PHP Notice:  Undefined index: adminid in /home/progressive/supernet.progressive.co.ke/admin/add-users.php on line 3
+[22-Aug-2022 07:49:27 UTC] PHP Notice:  Undefined index: adminid in /home/progressive/supernet.progressive.co.ke/admin/manage-users.php on line 3
+[23-Aug-2022 13:09:42 UTC] PHP Notice:  Undefined index: adminid in /home/progressive/supernet.progressive.co.ke/admin/dashboard.php on line 3
+[24-Aug-2022 04:16:57 UTC] PHP Notice:  Undefined index: adminid in /home/progressive/supernet.progressive.co.ke/admin/manage-users.php on line 3
+[24-Aug-2022 08:12:08 UTC] PHP Notice:  Undefined index: adminid in /home/progressive/supernet.progressive.co.ke/admin/manage-users.php on line 3
+[29-Aug-2022 07:01:17 UTC] PHP Notice:  Undefined index: adminid in /home/progressive/supernet.progressive.co.ke/admin/add-users.php on line 3
+[30-Aug-2022 06:57:20 UTC] PHP Notice:  Undefined index: adminid in /home/progressive/supernet.progressive.co.ke/admin/manage-users.php on line 3
+[03-Sep-2022 08:42:36 UTC] PHP Notice:  Undefined index: adminid in /home/progressive/supernet.progressive.co.ke/admin/dashboard.php on line 3
+[08-Sep-2022 04:28:43 UTC] PHP Notice:  Undefined index: adminid in /home/progressive/supernet.progressive.co.ke/admin/manage-users.php on line 3
+[16-Sep-2022 01:09:35 UTC] PHP Notice:  Undefined index: adminid in /home/progressive/supernet.progressive.co.ke/admin/manage-users.php on line 3
+[20-Sep-2022 06:45:52 UTC] PHP Notice:  Undefined index: adminid in /home/progressive/supernet.progressive.co.ke/admin/manage-users.php on line 3
+[22-Sep-2022 07:07:00 UTC] PHP Notice:  Undefined index: adminid in /home/progressive/supernet.progressive.co.ke/admin/manage-users.php on line 3
+[23-Sep-2022 06:08:31 UTC] PHP Notice:  Undefined index: adminid in /home/progressive/supernet.progressive.co.ke/admin/manage-users.php on line 3
