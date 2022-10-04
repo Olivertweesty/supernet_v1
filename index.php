@@ -1,3 +1,6 @@
+<?php
+header('Location: admin');
+?>
 <html>
     <head>
         <title>Supernet</title>
