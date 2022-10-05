@@ -1,5 +1,5 @@
 <?php
-require("connection.php");
+require("../includes/config.php");
 header("Content-Type: application/json");
 
 $response = '{
@@ -29,11 +29,12 @@ $LastName = $jsonMpesaResponse['LastName'];
 
 $time = $transTime;
     $time= (string)$time;
-    $month = $time[0].$time[1].$time[2].$time[3]."-".$time[4].$time[5];
+    $n_time = $time[0].$time[1].$time[2].$time[3]."-".$time[4].$time[5]."-".$time[6].$time[7]." ".$time[8].$time[9].":".$time[10].$time[11].":".$time[12].$time[13];
+    echo $n_time;
 
-$sql = "INSERT INTO mpesa(TransType, TransID, TransTime, TransAmount, BusinessShortCode, BillRefNumber, InvoiceNumber, OrgAccBalance, ThirdPartyTransID, MSISDN, FirstName, MiddleName, LastName, monthMPESA) VALUES ('$type','$transID','$transTime','$TransAmount','$BusinessShortCode','$BillRefNumber','$InvoiceNumber','$OrgAccountBalance','$ThirdPartyTransID','$MSISDN','$FirstName','$MiddleName','$LastName' , '$month')";
+$sql = "INSERT INTO mpesa_records(id,transactiontype, transID, transtime, transAmount, businessShortCode, invoiceNumber, OrgAccountBalance, MSISDN, FirstName, LastName) VALUES ('$type','$transID','$n_time','$TransAmount','$BusinessShortCode','$BillRefNumber','$InvoiceNumber','$OrgAccountBalance','$MSISDN','$FirstName','$LastName')";
 
-mysqli_query($conn,$sql);
+mysqli_query($con,$sql);
 
 
 $log = fopen($logFile, "a");

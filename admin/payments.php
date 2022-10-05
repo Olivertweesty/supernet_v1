@@ -73,7 +73,7 @@ echo "<script>alert('Data deleted');</script>";
                                         </tr>
                                     </tfoot>
                                     <tbody>
-                                              <?php $ret=mysqli_query($con,"select * from sentsms");
+                                              <?php $ret=mysqli_query($con,"select * from mpesa_records");
                               $cnt=1;
                               while($row=mysqli_fetch_array($ret))
                               {?>
