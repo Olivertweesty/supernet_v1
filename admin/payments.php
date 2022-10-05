@@ -50,19 +50,26 @@ echo "<script>alert('Data deleted');</script>";
                                 <table id="datatablesSimple">
                                     <thead>
                                         <tr>
-                                             <th>Id</th>
-                                  <th> Number</th>
-                                  <th> Message</th>
-                                 <th> Time</th>
+                                            <th>ID</th>
+                                            <th>Transaction Type</th>
+                                            <th>Transaction ID</th>
+                                            <th>Amount</th>
+                                            <th>Account</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>MSISDN</th>
                                         </tr>
                                     </thead>
                                     <tfoot>
-                                       <tr>
-                                             <th>Id</th>
-                                  <th> Number</th>
-                                  <th> Message</th>
-                                  <th> Time</th>
-                                 
+                                        <tr>
+                                            <th>ID</th>
+                                            <th>Transaction Type</th>
+                                            <th>Transaction ID</th>
+                                            <th>Amount</th>
+                                            <th>Account</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>
+                                            <th>MSISDN</th>
                                         </tr>
                                     </tfoot>
                                     <tbody>
