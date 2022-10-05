@@ -79,9 +79,14 @@ echo "<script>alert('Data deleted');</script>";
                               {?>
                               <tr>
                               <td><?php echo $cnt;?></td>
-                                  <td><?php echo $row['number'];?></td>
-                                  <td><?php echo $row['message'];?></td>
-                                  <td><?php echo $row['timestamp'];?></td>
+                                  <td><?php echo $row['id'];?></td>
+                                  <td><?php echo $row['transactiontype'];?></td>
+                                  <td><?php echo $row['transID'];?></td>
+                                  <td><?php echo $row['transAmount'];?></td>
+                                  <td><?php echo $row['invoiceNumber'];?></td>
+                                  <td><?php echo $row['FirstName'];?></td>
+                                  <td><?php echo $row['LastName'];?></td>
+                                  <td><?php echo $row['MSISDN'];?></td>
                                  
                                 
                                 

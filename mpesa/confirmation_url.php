@@ -32,7 +32,7 @@ $time = $transTime;
     $n_time = $time[0].$time[1].$time[2].$time[3]."-".$time[4].$time[5]."-".$time[6].$time[7]." ".$time[8].$time[9].":".$time[10].$time[11].":".$time[12].$time[13];
     echo $n_time;
 
-$sql = "INSERT INTO mpesa_records(id,transactiontype, transID, transtime, transAmount, businessShortCode, invoiceNumber, OrgAccountBalance, MSISDN, FirstName, LastName) VALUES ('$type','$transID','$n_time','$TransAmount','$BusinessShortCode','$BillRefNumber','$InvoiceNumber','$OrgAccountBalance','$MSISDN','$FirstName','$LastName')";
+$sql = "INSERT INTO mpesa_records(id,transactiontype, transID, transtime, transAmount, businessShortCode, invoiceNumber, OrgAccountBalance, MSISDN, FirstName, LastName) VALUES ('1','$type','$transID','$n_time','$TransAmount','$BusinessShortCode','$BillRefNumber','$InvoiceNumber','$OrgAccountBalance','$MSISDN','$FirstName','$LastName')";
 
 mysqli_query($con,$sql);
 
