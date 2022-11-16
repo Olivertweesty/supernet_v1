@@ -74,11 +74,10 @@ echo "<script>alert('Data deleted');</script>";
                                     </tfoot>
                                     <tbody>
                                               <?php $ret=mysqli_query($con,"select * from mpesa_records");
-                              $cnt=1;
+                            
                               while($row=mysqli_fetch_array($ret))
                               {?>
                               <tr>
-                              <td><?php echo $cnt;?></td>
                                   <td><?php echo $row['id'];?></td>
                                   <td><?php echo $row['transactiontype'];?></td>
                                   <td><?php echo $row['transID'];?></td>
@@ -91,7 +90,7 @@ echo "<script>alert('Data deleted');</script>";
                                 
                                 
                               </tr>
-                              <?php $cnt=$cnt+1; }?>
+                              <?php }?>
                                       
                                     </tbody>
                                 </table>
